@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
-
+//import  Hello from  './components/Hello' 
+import Profile from './components/Profile';
+import Message from './components/Message';
+import Counter from './components/Counter';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          this is my first App
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App">     
+       <Profile name="dushyantha">
+         this is profile of person
+       </Profile>
+       <Profile name="manthi"></Profile>
+       <Profile name="pudasri"></Profile>
+       <Message MessageCode ="10"  MessageContent ="this Class Message Content "></Message>
+      <Counter></Counter>  
     </div>
   );
 }
