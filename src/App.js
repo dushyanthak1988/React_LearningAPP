@@ -5,6 +5,10 @@ import Profile from './components/Profile';
 import Message from './components/Message';
 import Counter from './components/Counter';
 import Resume from './components/Resume';
+import  ProductList from './components/ProductList/ProductList'
+import NameList  from './components/NameList/NameList'
+import Ajaxcall from './components/AjexCall/Ajaxcall'
+import AxiosAjexCall  from './components/AjexCall/AxiosAjexCall'
 
 function App() {
   return (
@@ -17,6 +21,11 @@ function App() {
        <Message MessageCode ="10"  MessageContent ="this Class Message Content "></Message>
       <Counter></Counter>  
       <Resume name="Dushyantha kalehewatte"></Resume>
+      <ProductList></ProductList>
+      <NameList></NameList>
+      <Ajaxcall></Ajaxcall>
+      <AxiosAjexCall></AxiosAjexCall>
+
     </div>
   );
 }
